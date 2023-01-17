@@ -1,21 +1,27 @@
 @charset "utf-8";
+
+/* Universal Settings */
 html {
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
 }
 
-nav {
-    align-self: center;
-    display: block;
-    border-color: black;
-}
+    /* Header Settings */
+    header nav {
+        display: block;
+        text-align: right;
+        border-color: black;
+        font-size: 3rem;
+    }
+        /* Navigation Header Settings */
+        header nav ul {
+            list-style-type: none;
+            list-style: none;
+            
+        }
 
-nav ul {
-    list-style-type: none;
-    list-style: none;
-    
-}
-
-nav li{
-    display: inline;
-}
+        header nav li {
+            display: inline;
+            padding:40px;
+        }
 
