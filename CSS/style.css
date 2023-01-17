@@ -19,10 +19,11 @@ a:hover {
     color:hsl(15, 90%, 60%);
 }
 
+
     /* Header Settings */
     header nav {
         display: block;
-        text-align: right;
+        text-align: center;
         border-color: black;
         font-size: 3rem;
         background-color: hsl(15, 90%, 60%);
@@ -39,12 +40,12 @@ a:hover {
 
         header nav li {
             display: inline;
-            
         }
 
-        header nav li::after {
-            content: " | ";
+        header nav li+li:before {
+            content: "|";
             color: white;
+            margin-right: 1rem;
         }
 
         header nav li a {
@@ -53,22 +54,47 @@ a:hover {
             font-weight:bolder;
             
         }
+        ul#links a:hover {
+            color: black;
+        }
 
     /*Body Settings*/
 
-    dt#name {
-        font-size: 6rem;
-        text-align: center;
-        margin-top: 18rem;
-        color: hsl(15, 90%, 60%);;
-    }
+        
+        /*Name Settings*/
+        dt#name {
+            font-size: 6rem;
+            text-align: center;
+            margin-top: 18rem;
+            color: hsl(15, 90%, 60%);
+        }
 
-    dt#titles {
-        margin-top: 2rem;
-        font-size: 2rem;
-        text-align: center;
-        align-items: center;
-    }
+        dt#name a {
+            color:hsl(15, 90%, 60%);
+        }
+        dt#name a:hover {
+            color: black;
+        }
+
+        /*Title Settings*/
+        body dl {
+            text-align: center;
+        }
+
+        body dl dt {
+           
+        }
+
+        body dl dt ul#titles li {
+            display: inline;
+            font-size: 2rem;
+        }
+
+        body dl dt ul#titles li+li:before {
+            content:"|";
+            margin-left: 0.75rem;    
+            margin-right: 0.75rem;        
+        }
 
     dd#indexaboutshort {
         display: none;                              /*Not sure if I want this*/
@@ -81,12 +107,12 @@ a:hover {
         padding-top: 4rem;
     }
 
-    
-
+    /*favicon settings*/
     nav#favicons {
         text-decoration: none;
         text-align: center;
         align-items: center;
+        margin-top: 34rem;
     }
 
     img#Github {
