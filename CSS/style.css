@@ -1,0 +1,19 @@
+@charset "utf-8";
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+align-items:right;
+}
+
+nav ul {
+    list-style-type: none;
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    
+}
+
