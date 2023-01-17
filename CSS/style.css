@@ -101,5 +101,5 @@ a:hover {
     }
     a#emailindex::before {
        content:" | ";
-
+        
     }
