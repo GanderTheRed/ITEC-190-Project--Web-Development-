@@ -4,10 +4,10 @@
 html {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
-    
 }
 
 body {
+    background-color: hsl(15, 90%, 100%);
     margin: 0;
     padding: 0;
 }
@@ -19,22 +19,32 @@ body {
         border-color: black;
         font-size: 3rem;
         background-color: hsl(15, 90%, 60%);
-        margin: 0px;
-        padding: 2rem;
+        margin: 0;
+        padding: 1rem;
         border:0;
     }
         /* Navigation Header Settings */
         header nav ul {
             list-style-type: none;
             list-style: none;
+            padding-right: 2rem;
         }
 
         header nav li {
             display: inline;
+            
+        }
+
+        header nav li::after {
+            content: " | ";
+            color: white;
         }
 
         header nav li a {
             color: white;
             text-decoration: none;
+            font-weight:bolder;
+            
         }
+
 
