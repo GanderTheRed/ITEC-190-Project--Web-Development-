@@ -4,16 +4,18 @@ html {
 }
 
 nav {
-align-items:right;
+    align-self: center;
+    display: block;
+    border-color: black;
 }
 
 nav ul {
     list-style-type: none;
     list-style: none;
+    
 }
 
 nav li{
     display: inline;
-    
 }
 
