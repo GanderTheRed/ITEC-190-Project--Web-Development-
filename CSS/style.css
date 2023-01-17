@@ -4,6 +4,12 @@
 html {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
     /* Header Settings */
@@ -12,16 +18,23 @@ html {
         text-align: right;
         border-color: black;
         font-size: 3rem;
+        background-color: hsl(15, 90%, 60%);
+        margin: 0px;
+        padding: 2rem;
+        border:0;
     }
         /* Navigation Header Settings */
         header nav ul {
             list-style-type: none;
             list-style: none;
-            
         }
 
         header nav li {
             display: inline;
-            padding:40px;
+        }
+
+        header nav li a {
+            color: white;
+            text-decoration: none;
         }
 
