@@ -59,11 +59,12 @@ a:hover {
     dt#name {
         font-size: 6rem;
         text-align: center;
-        margin-top: 12rem;
+        margin-top: 18rem;
         color: hsl(15, 90%, 60%);;
     }
 
     dt#titles {
+        margin-top: 2rem;
         font-size: 2rem;
         text-align: center;
         align-items: center;
