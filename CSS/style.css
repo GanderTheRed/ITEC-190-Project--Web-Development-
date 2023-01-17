@@ -11,6 +11,13 @@ body {
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color:hsl(15, 90%, 60%);
+}
 
     /* Header Settings */
     header nav {
@@ -47,4 +54,52 @@ body {
             
         }
 
+    /*Body Settings*/
 
+    dt#name {
+        font-size: 6rem;
+        text-align: center;
+        margin-top: 12rem;
+        color: hsl(15, 90%, 60%);;
+    }
+
+    dt#titles {
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    dd#indexaboutshort {
+        display: none;                              /*Not sure if I want this*/
+        font-size: 1.5rem;
+        text-align: center;
+        align-self: center;                             
+        margin: auto;
+        padding-left: 13rem;
+        padding-right: 13rem;
+        padding-top: 4rem;
+    }
+
+    
+
+    nav#favicons {
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+    }
+
+    img#Github {
+        display: inline-block;
+        width:6rem;
+    }
+    a#emailindex {
+        position: relative;
+        top: -0.75rem;
+        font-size: 1.9rem;
+        font-weight: bold;
+        font-variant: small-caps;
+    }
+    a#emailindex::before {
+       content:" | ";
+
+    }
