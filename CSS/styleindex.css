@@ -64,7 +64,7 @@ a:hover {
 
     /*First Element Settings (dl)*/
         
-        body dl {
+        body dl#section1 {
             text-align: center;
             /*background-image: url("../photos/opening-laptop.jpg");*/
             background-position: center;
@@ -76,6 +76,11 @@ a:hover {
             padding-bottom: 1.5rem;
             margin-top: 0%;
         }
+
+        body dl#section2 {
+
+        }
+        
             /*Name Settings*/
             dt#name {
                 font-size: 6rem;
