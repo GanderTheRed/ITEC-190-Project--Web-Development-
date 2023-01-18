@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: hsl(352, 90%, 65%);
+    background-color: hsl(352, 90%, 75%);
     margin:0;
     padding: 0;
 }
@@ -34,11 +34,11 @@ ul {
         padding: auto;;
         position: fixed;
         top:0;
-        background-color: hsl(352, 90%, 60%);
+        background-color: hsl(352, 90%, 65%);
         width:100%;
         border-bottom-left-radius: 3rem;
         border-bottom-right-radius: 3rem;
-        box-shadow: 0px 0.5rem 1rem hsl(352, 90%, 40%);
+        box-shadow: 0px 0px 0.75rem hsl(352, 90%, 30%);
     }
         /* Navigation Header Settings */
         header nav ul {
@@ -84,8 +84,8 @@ ul {
             padding-bottom: 15rem;
             margin-top: 10%;
             margin-bottom: 4%;
-            background-color: hsl(352, 90%, 58%);
-            box-shadow: 0px 0px 1rem hsl(352, 90%, 30%);
+            background-color: hsl(352, 90%, 65%);
+            box-shadow: 0px 0px 0.75rem hsl(352, 90%, 30%);
         }
 
     /*Second Element Settings*/
@@ -142,7 +142,7 @@ ul {
             border-radius: 3rem;
             margin-left: 2%;
             margin-right: 2%;
-            box-shadow: 0px 0px 1rem rgb(184, 184, 184);
+            box-shadow: 0px 0px 0.75rem hsl(352, 90%, 30%);
         }
 
         body dl#section3 dd img {
@@ -151,7 +151,7 @@ ul {
             max-width: 1920px;
             max-height:850px;
             border-radius: 3rem; 
-            box-shadow: 0px 0px 1rem rgb(105, 105, 105);
+            box-shadow: 0px 0px 0.75rem hsl(352, 90%, 30%);
         }
 
     /*favicon settings*/
