@@ -4,6 +4,7 @@
 html {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
+    font-weight: bold;
 }
 
 body {
@@ -30,8 +31,12 @@ ul {
         border-color: black;
         font-size: 3rem;
         margin: auto;
-        padding: 0.5rem;
+        padding: auto;
         border:0;
+        position: fixed;
+        top:0;
+        background-color: hsl(352, 90%, 60%);
+        width:100%;
     }
         /* Navigation Header Settings */
         header nav ul {
@@ -46,7 +51,7 @@ ul {
 
         header nav li+li:before {
             content: "|";
-            color: white;;
+            color: white;
             margin-right: 1rem;
         }
 
@@ -75,8 +80,8 @@ ul {
             border-radius: 3rem;
             background-size: 80%;
             padding-top: 5%;
-            padding-bottom: 1.5rem;
-            margin-top: 0%;
+            padding-bottom: 15rem;
+            margin-top: 10%;
         }
 
     /*Second Element Settings*/
@@ -86,18 +91,6 @@ ul {
             max-width: 300px;
             
         }    
-
-        body dl#section2 {
-            margin-top: 2rem;
-        }
-
-        body dl#section2 dd img {
-            max-width: 1920px;
-            max-height:850px;
-            border-radius: 3rem; 
-            
-        }
-        
             /*Name Settings*/
             dt#name {
                 font-size: 6rem;
@@ -115,7 +108,9 @@ ul {
             }
 
             /*Title Settings*/
-            
+            body dl dt ul#titles li {
+                margin-bottom: 10rem;
+            }
 
             body dl dt ul#titles li {
                 display: inline;
@@ -129,16 +124,27 @@ ul {
                 margin-right: 0.75rem;        
             }
 
-        dd#indexaboutshort {
+        body dl dd#indexaboutshort {
             display: inline;                              /*Not sure if I want this*/
             font-size: 1.5rem;
             text-align: center;                          
-            margin: 0 auto auto;
-            padding-left: 8rem;
-            padding-right: 8rem;
+            margin: auto;
             color: white;
-            margin-top: 2%;
-            width: 100%;
+        }
+
+        body dl#section2 {
+            
+            height: 850px;
+            background-color: aliceblue;
+        }
+
+        body dl#section3 dd img {
+            margin-top: 5rem;
+           
+            max-width: 1920px;
+            max-height:850px;
+            border-radius: 3rem; 
+            
         }
 
     /*favicon settings*/
