@@ -9,7 +9,7 @@ html {
 
 body {
     background-color: hsl(352, 90%, 60%);
-    margin: 0;
+    
     padding: 0;
 }
 a {
@@ -73,7 +73,6 @@ ul {
         
         body dl#section1 {
             text-align: center;
-            /*background-image: url("../photos/opening-laptop.jpg");*/
             background-position: center;
             width: 90%;
             margin:auto;
@@ -133,9 +132,9 @@ ul {
         }
 
         body dl#section2 {
-            
             height: 850px;
             background-color: aliceblue;
+            border-radius: 3rem;
         }
 
         body dl#section3 dd img {

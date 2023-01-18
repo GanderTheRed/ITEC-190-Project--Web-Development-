@@ -4,11 +4,12 @@
 html {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
+    font-weight: bold;
 }
 
 body {
     background-color: hsl(352, 90%, 60%);
-    margin: 0;
+    
     padding: 0;
 }
 a {
@@ -18,7 +19,9 @@ a {
 a:hover {
     color:hsl(352, 90%, 60%);
 }
-
+ul {
+    padding: 0;
+}
 /*Body Settings*/
 
     /* Header Settings */
@@ -28,8 +31,12 @@ a:hover {
         border-color: black;
         font-size: 3rem;
         margin: auto;
-        padding: 0.5rem;
+        padding: auto;
         border:0;
+        position: fixed;
+        top:0;
+        background-color: hsl(352, 90%, 60%);
+        width:100%;
     }
         /* Navigation Header Settings */
         header nav ul {
@@ -44,7 +51,7 @@ a:hover {
 
         header nav li+li:before {
             content: "|";
-            color: white;;
+            color: white;
             margin-right: 1rem;
         }
 
@@ -54,11 +61,11 @@ a:hover {
             font-weight:bolder;
             
         }
-        ul#links a:hover {
+        header nav ul a:hover {
             color: black;
         }
 
-        header nav li a#skills {
+        header nav li a#index {
             text-decoration: underline;
         }
 
