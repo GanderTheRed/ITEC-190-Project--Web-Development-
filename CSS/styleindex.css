@@ -18,7 +18,9 @@ a {
 a:hover {
     color:hsl(352, 90%, 60%);
 }
-
+ul {
+    padding: 0;
+}
 /*Body Settings*/
 
     /* Header Settings */
@@ -86,7 +88,7 @@ a:hover {
         }    
 
         body dl#section2 {
-            margin-top: 4rem;
+            margin-top: 2rem;
         }
 
         body dl#section2 dd img {
@@ -128,14 +130,15 @@ a:hover {
             }
 
         dd#indexaboutshort {
-            display: block;                              /*Not sure if I want this*/
+            display: inline;                              /*Not sure if I want this*/
             font-size: 1.5rem;
             text-align: center;                          
-            margin: auto;
+            margin: 0 auto auto;
             padding-left: 8rem;
             padding-right: 8rem;
             color: white;
             margin-top: 2%;
+            width: 100%;
         }
 
     /*favicon settings*/
