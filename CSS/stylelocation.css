@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/* Universal Settings */
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+body {
+    background-color: hsl(352, 90%, 60%);
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color:hsl(352, 90%, 60%);
+}
+
+/*Body Settings*/
+
+    /* Header Settings */
+    header nav {
+        display: block;
+        text-align: right;
+        border-color: black;
+        font-size: 3rem;
+        margin: auto;
+        padding: 0.5rem;
+        border:0;
+    }
+        /* Navigation Header Settings */
+        header nav ul {
+            list-style-type: none;
+            list-style: none;
+            padding-right: 2rem;
+        }
+
+        header nav li {
+            display: inline;
+        }
+
+        header nav li+li:before {
+            content: "|";
+            color: white;;
+            margin-right: 1rem;
+        }
+
+        header nav li a {
+            color: white;
+            text-decoration: none;
+            font-weight:bolder;
+            
+        }
+        ul#links a:hover {
+            color: black;
+        }
+
+        header nav li a#location {
+            text-decoration: underline;
+        }
+
+    /*First Element Settings (dl)*/
+        
+        body dl {
+            text-align: center;
+            /*background-image: url("../photos/opening-laptop.jpg");*/
+            background-position: center;
+            width: 90%;
+            margin:auto;
+            border-radius: 3rem;
+            background-size: 80%;
+            padding-top: 5%;
+            padding-bottom: 1.5rem;
+            margin-top: 0%;
+        }
+            /*Name Settings*/
+            dt#name {
+                font-size: 6rem;
+                text-align: center;
+                margin-top: 14rem;
+                color: white;
+                margin: auto;
+            }
+
+            dt#name a {
+                color:white;
+            }
+            dt#name a:hover {
+                color: black;
+            }
+
+            /*Title Settings*/
+            
+
+            body dl dt ul#titles li {
+                display: inline;
+                font-size: 2rem;
+                color: white;
+            }
+
+            body dl dt ul#titles li+li:before {
+                content:"|";
+                margin-left: 0.75rem;    
+                margin-right: 0.75rem;        
+            }
+
+        dd#indexaboutshort {
+            display: block;                              /*Not sure if I want this*/
+            font-size: 1.5rem;
+            text-align: center;
+            align-self: center;                             
+            margin: auto;
+            padding-left: 8rem;
+            padding-right: 8rem;
+            color: white;
+            margin-bottom: 25%;
+        }
+
+    /*favicon settings*/
+    nav#favicons {
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        margin-top: 34rem;
+    }
+
+    img#Github {
+        display: inline-block;
+        width:6rem;
+    }
+    a#emailindex {
+        position: relative;
+        top: -0.75rem;
+        font-size: 1.9rem;
+        font-weight: bold;
+        font-variant: small-caps;
+    }
+    a#emailindex::before {
+       content:" | ";
+        
+    }
