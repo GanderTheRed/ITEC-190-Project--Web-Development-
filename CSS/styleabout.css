@@ -32,11 +32,12 @@ ul {
         font-size: 3rem;
         margin: auto;
         padding: auto;
-        border:0;
         position: fixed;
         top:0;
         background-color: hsl(352, 90%, 60%);
         width:100%;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
     }
         /* Navigation Header Settings */
         header nav ul {
