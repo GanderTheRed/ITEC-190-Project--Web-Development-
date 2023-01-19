@@ -157,6 +157,16 @@ ul {
             margin-left: 10%;
             margin-right: 10%;
             box-shadow: 0px 0px 0.75rem hsl(240, 50%, 20%);
+            
+        }
+        body dl#section2 dt {
+            color: hsl(240, 50%, 20%);
+            float: right;
+            margin-right: 8rem;
+            margin-top: 7rem;
+            font-size: 6rem;
+            padding: 2rem;
+            max-width: fit-content;
         }
         body dl dd {
             color: hsl(240, 50%, 20%);
@@ -169,7 +179,6 @@ ul {
         }
         body dl#section3 {
             margin-top: 0rem;
-            
         }
         body dl#section3 dd {
             margin-top: 0;
