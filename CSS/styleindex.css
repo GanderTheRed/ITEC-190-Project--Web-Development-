@@ -151,7 +151,7 @@ ul {
         }
 
         /*Second Element Settings*/
-        body dl#section2 {
+        /*body dl#section2 {
             height: 850px;
             background-image: url("../photos/whitedesk.jpg");
             background-size: cover;
@@ -194,7 +194,7 @@ ul {
             border-radius: 3rem; 
             box-shadow: 0px 0px 0.75rem hsl(240, 50%, 20%);
             
-        }
+        }*/
 
 
     /*favicon settings*/
