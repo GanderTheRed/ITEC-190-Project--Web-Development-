@@ -91,7 +91,7 @@ ul {
         }
         
         body dl nav#calltoaction {
-            margin-top: 2rem;
+            margin-top: 5rem;
         }
 
         body dl a#Github {
@@ -117,20 +117,20 @@ ul {
         }    
             /*Name Settings*/
             dt#name {
-                font-size: 6rem;
+                font-size: 8rem;
                 text-align: center;
                 margin-top: 14rem;
                 color: white;
                 margin: 0;
+                margin-bottom: 1rem;
+                
             }
-
             dt#name a {
                 color:white;
             }
             dt#name a:hover {
                 color: lightskyblue;
             }
-
             /*Title Settings*/
             body dl dt ul#titles li {
                 margin-bottom: 10rem;
