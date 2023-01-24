@@ -62,7 +62,7 @@ ul {
             
         }
         header nav ul a:hover {
-            color: black;
+            color: lightskyblue;
         }
 
         header nav li a#index {
@@ -121,7 +121,7 @@ ul {
                 color:white;
             }
             dt#name a:hover {
-                color: black;
+                color: lightskyblue;
             }
 
             /*Title Settings*/
@@ -228,10 +228,10 @@ ul {
         margin-bottom:2rem;
     }
     a#Github:hover {
-        color:black;
+        color: lightskyblue;    
     }
     a#emailindex:hover {
-        color:black;
+        color: lightskyblue;    
     }
 
     /*Class Variables*/
