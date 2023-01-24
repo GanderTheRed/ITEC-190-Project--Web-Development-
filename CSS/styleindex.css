@@ -9,12 +9,16 @@ html {
 
 body {
     background-color: whitesmoke;
-    margin:0;
+    margin: auto;
     padding: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("../photos/keyboard.jpg");
+    background-position: 100%;
 }
 a {
     text-decoration: none;
-    color: black;
+    color: lightskyblue;
 }
 a:hover {
     color:lightskyblue;
@@ -62,7 +66,7 @@ ul {
             
         }
         header nav ul a:hover {
-            color: black;
+            color: lightskyblue;
         }
 
         header nav li a#index {
@@ -79,8 +83,11 @@ ul {
             border-radius: 3rem;
             padding-top: 5%;
             padding-bottom: 5%;
+            margin-top: auto;
+            margin-bottom: auto;
             /*background-color: hsl(240, 50%, 20%);
             box-shadow: 0px 0px 0.75rem hsl(240, 50%, 20%); */
+            
         }
         
         body dl nav#calltoaction {
@@ -121,7 +128,7 @@ ul {
                 color:white;
             }
             dt#name a:hover {
-                color: black;
+                color: lightskyblue;
             }
 
             /*Title Settings*/
@@ -150,8 +157,10 @@ ul {
             color: lightskyblue;
         }
 
+        
+
         /*Second Element Settings*/
-        body dl#section2 {
+        /*body dl#section2 {
             height: 850px;
             background-image: url("../photos/whitedesk.jpg");
             background-size: cover;
@@ -194,7 +203,7 @@ ul {
             border-radius: 3rem; 
             box-shadow: 0px 0px 0.75rem hsl(240, 50%, 20%);
             
-        }
+        }*/
 
 
     /*favicon settings*/
@@ -228,10 +237,10 @@ ul {
         margin-bottom:2rem;
     }
     a#Github:hover {
-        color:black;
+        color: lightskyblue;    
     }
     a#emailindex:hover {
-        color:black;
+        color: lightskyblue;    
     }
 
     /*Class Variables*/
@@ -249,10 +258,10 @@ ul {
    }
 
    dl.imagebox {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-image: url("../photos/keyboard.jpg");
-    background-position: 100%;
+    display: block;
+    position: absolute;
+    top: 25%;
+    width: 100%;
    }
 
     
