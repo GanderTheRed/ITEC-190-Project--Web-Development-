@@ -100,8 +100,9 @@ ul {
     img {
         max-width: 20rem;
         max-height: 30rem;
-
-
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     dt.MainTitle {
         display: inline-block;
@@ -116,14 +117,16 @@ ul {
         margin-bottom: 4rem;
     }
     dd#TronDesc {
-        display: none;
+        display: block;
+        grid-row: 4/4;
+        grid-column: 1/5;
+        margin-top: 4rem;
+        font-size: 2rem;
     }
 
     img.TronProject {
         grid-row: 3/3;
-        
         border-radius: 3rem;
-        
     }
    
     
