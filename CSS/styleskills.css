@@ -7,7 +7,6 @@ html {
     font-weight: bold;
     color: white;    
 }
-
 body {
     background-color: whitesmoke;
     margin: auto;
@@ -48,18 +47,15 @@ ul {
             list-style: none;
             padding-right: 2rem;
         }
-
         header nav li {
             display: inline;
         }
-
         header nav li+li:before {
             content: "|";
             color: white;
             margin-right: 1rem;
             margin-left: 1rem;
         }
-
         header nav li a {
             color: white;
             text-decoration: none;
@@ -69,7 +65,6 @@ ul {
         header nav ul a:hover {
             color: lightskyblue;
         }
-
         header nav li a#skills {
             text-decoration: underline;
         }
@@ -78,3 +73,9 @@ ul {
     img {
         max-width: 50rem;
     }
+
+    dl {
+        margin-top: 2.5rem;
+    }
+
+    
