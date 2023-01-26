@@ -14,8 +14,8 @@ body {
     padding: 0;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-image: url("../photos/keyboard.jpg");
     background-position: 100%;
+    color: black;
 }
 a {
     text-decoration: none;
@@ -73,3 +73,8 @@ ul {
         header nav li a#skills {
             text-decoration: underline;
         }
+
+    /*Section 1 Settings*/
+    img {
+        max-width: 50rem;
+    }
