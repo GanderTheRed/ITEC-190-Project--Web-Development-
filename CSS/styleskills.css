@@ -122,6 +122,7 @@ ul {
         grid-column: 1/5;
         margin-top: 4rem;
         font-size: 2rem;
+        text-align: center;
     }
 
     img.TronProject {
