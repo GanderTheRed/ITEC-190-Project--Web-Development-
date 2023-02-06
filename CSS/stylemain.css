@@ -22,10 +22,6 @@ a {
 a:hover {
     color: rgba(18, 82, 18, 0.7);
 }
-html {
-    background-image: url("../photos/misty-forest.jpeg");
-    background-size: cover;
-}
 
     /* Top Nav Bar */
     body header nav ul {
