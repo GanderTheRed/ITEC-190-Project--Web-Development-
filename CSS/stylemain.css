@@ -20,10 +20,11 @@ a {
     color: whitesmoke;
 }
 a:hover {
-    color: gray;
+    color: rgba(18, 82, 18, 0.7);
 }
-body header nav ul li a:hover {
-    color: darkgray;
+html {
+    background-image: url("../photos/misty-forest.jpeg");
+    background-size: cover;
 }
 
     /* Top Nav Bar */
@@ -38,71 +39,40 @@ body header nav ul li a:hover {
         width:100%;
         box-shadow: 0px 0px 0.75rem hsla(240, 4%, 17%, 0.466);
     }
-    body header nav ul li a#homepage {
-        color: coral;
-    }
-    body header nav ul li a#homepage:hover {
-        color: darkgray;
-    }
-    body header nav ul li a#skills {
-        color: rgb(0, 102, 255);
-    }
-    body header nav ul li a#skills:hover {
-        color: darkgray;
-    }
-    body header nav ul li a#about {
-        color: rgb(40, 240, 40);
-    }
-    body header nav ul li a#about:hover {
-        color: darkgray;
-    }
-    body header nav ul li a#location {
-        color: rgb(227, 240, 40);
-    }
-    body header nav ul li a#location:hover {
-        color: darkgray;
-    }
-
+    
     /* Main Body Styles */
 
         /* Name Title */
         body dl dt#dt1index {
             display: flex;
-            width: 100%;
+            margin: 8rem auto;
             justify-content: center;
-            margin-top: 20rem;
         }
-        body dl dt#dt1index a:hover {
-            color: red;
-        }
+        
         body dl dt a {
             font-size: 6rem;
             text-align: center;
         }
-
         /* Under Titles */
         body dl dt#dt2index {
             display: flex;
-            margin-top: 1rem;
-            width: 100%;
+            justify-content: center;
         }
         body dl dt#dt2index ul{
             display: flex;
-            flex-flow: row wrap;
-            justify-content: space-evenly;
-            width: 100%;
+            list-style: square;
+            flex-flow: column wrap;
             font-size: 2rem;
         }
         
         /*Short Description*/
         body dl dd {
             display: flex;
-            flex-flow: row wrap;
-            margin-top: 2rem;
-            margin-left: 4rem;
-            margin-right: 4rem;
-            font-size: 1.5rem;
+            margin: 5rem auto;
+            font-size: 2rem;
             text-align: center;
+            justify-content: center;
+            width: 60%;
         }
 
         /*Nav buttons*/
@@ -111,8 +81,5 @@ body header nav ul li a:hover {
             flex-flow: row wrap;
             width: 100%;
             justify-content: space-around;
-            margin-top: 3rem;
         }
-        body dl nav a:hover {
-            color: red;
-        }
+        
