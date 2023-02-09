@@ -1,6 +1,5 @@
  /* Main Body Styles */
  
- 
  #myVideo {
     position: fixed;
     z-index: -1;
@@ -9,7 +8,6 @@
     min-width: 100%;
     min-height: 100%;
   }
-
 
         /* Name Title */
         body dl dt#dt1index {
