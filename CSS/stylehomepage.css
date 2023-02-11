@@ -1,0 +1,53 @@
+ /* Main Body Styles */
+ 
+ #myVideo {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+        /* Name Title */
+        body dl dt#dt1index {
+            display: flex;
+            margin: 8rem auto;
+            justify-content: center;
+        }
+        
+        body dl dt a {
+            font-size: 6rem;
+            text-align: center;
+        }
+        /* Under Titles */
+        body dl dt#dt2index {
+            display: flex;
+            justify-content: center;
+        }
+        body dl dt#dt2index ul{
+            display: flex;
+            list-style: square;
+            flex-flow: column wrap;
+            font-size: 2rem;
+        }
+        
+        /*Short Description*/
+        body dl dd {
+            display: flex;
+            margin: 5rem auto;
+            font-size: 2rem;
+            text-align: center;
+            justify-content: center;
+            width: 60%;
+        }
+
+        /*Nav buttons*/
+        body dl nav {
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            justify-content: space-around;
+        }
+        
+        

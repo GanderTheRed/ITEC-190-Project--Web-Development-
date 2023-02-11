@@ -4,40 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">              
     
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="CSS/styleindex.css">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/stylemain.css">
+    <link rel="stylesheet" href="CSS/stylehomepage.css">
   </head>
   <body>
     <header>
       <nav>
-        <ul id="links">
-          <li><a id="index" href=index.html>Homepage</a></li>
-          <li><a id="skills" href=skills.html>Projects</a></li>
-          <li><a id="about" href=about.html>About</a></li>
-          <li><a id="location" href=location.html>Location</a></li>
+        <ul>
+          <li><a href=index.html id="homepage"><u>Homepage</u></a></li>
+          <li><a href=skills.html id="skills">Projects</a></li>
+          <li><a href=about.html id="about">About</a></li>
+          <li><a href=location.html id="location">Location</a></li>
         </ul>
       </nav>
     </header>
+    
+    <video autoplay muted loop id="myVideo">
+      <source src="videos/snow.mp4" type="video/mp4">
+    </video>
 
-    <dl class="imagebox">
-      <dl id="section1">
-        <dt id="name"><a href=about.html>Thomas Gander</a></dt>
-        <dt id>
-          <ul id="titles">
-            <li>Professional Software Developer</li>
-            <li>C#</li>
-            <li>MS Access</li>
-            <li>A+</li>
-            <li>Network+</li>
-            <li>Professional Communications</li>
-          </ul>
-        </dt>
-        <dd id="indexaboutshort">With a background in Mechanical Engineering, Electronics Repair and Outdoor Pursuits.</dd>
-        <nav id="calltoaction" class="container">
-          <a href="https://github.com/GanderTheRed" id="Github">> My Github <</a>
-          <a href=mailto:thomas.gander99@gmail.com id="emailindex">> Email Me <</a>
-        </nav>
-      </dl>
+    <dl>
+      <dt id="dt1index"><a href=about.html>Thomas Gander</a></dt>
+      <dt id="dt2index">
+        <ul>
+          <li>Professional Software Developer</li>
+          <li>C#</li>
+          <li>MS Access</li>
+          <li>A+</li>
+          <li>Network+</li>
+          <li>Professional Communications</li>
+        </ul>
+      </dt>
+      <dd>Experienced IT professional with a variety of adaptable skills. 
+        Currently maintaining a 4.0 GPA in the Software Development stream of the IT program at Medicine Hat College,
+         with a previous problem solving background in Service Technician and Engineering roles.</dd>
+      <nav>
+        <a href="https://github.com/GanderTheRed">> My Github <</a>
+        <a href=mailto:thomas.gander99@gmail.com>> Email Me <</a>
+      </nav>
     </dl>
+   
   </body>
 </html>

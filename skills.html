@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">              
     
     <title>My Skills</title>
-    <link rel="stylesheet" href="CSS/styleskills.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/stylemain.css">
   </head>
   <body>
     <header>
       <nav>
-        <ul id="links">
-          <li><a id="index" href=index.html>Homepage</a></li>
-          <li><a id="skills" href=skills.html>Projects</a></li>
-          <li><a id="about" href=about.html>About</a></li>
-          <li><a id="location" href=location.html>Location</a></li>
+        <ul>
+          <li><a href=index.html>Homepage</a></li>
+          <li><a href=skills.html><u>Projects</u></a></li>
+          <li><a href=about.html>About</a></li>
+          <li><a href=location.html>Location</a></li>
         </ul>
       </nav>
     </header>
@@ -22,11 +23,14 @@
     <dl>
       <dt>My Projects</dt>
         <dt>Tron Game</dt>
-        <img src="cprojects/TronCode.png" />
-        <img src="cprojects/TronMainMenu.png" />
-        <img src="cprojects/TronGameplay.png" />
-        <img src="cprojects/TronGameplay2.png" />
+        <video autoplay muted loop id="myVideo">
+          <source src="videos/atm.mp4" type="video/mp4">
+        </video>
         
+        
+        <video autoplay muted loop id="myVideo">
+          <source src="videos/snake.mp4" type="video/mp4">
+        </video>
         <dd>This was the final project for my programming class from my first C# semester.
            This game project allowed me to practice all of the fundamentals of programming before arrays get involved.
            </dd>
@@ -74,9 +78,9 @@
       <dt>This Website</dt>
         <dd>This website has gone through many iterations as I constantly strived to improve the design.</dd>
         <ul>
-          <li><img src="website photos/old_website.jpeg" /></li>
-          <li><img src="website photos/website.png" /></li>
-          <li><img src="website photos/Website2.png" /></li>
+          <video autoplay muted loop id="myVideo">
+            <source src="videos/website.mp4" type="video/mp4">
+          </video>
         </ul>
     </dl>
 

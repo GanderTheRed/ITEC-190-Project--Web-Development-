@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* Universal Settings */
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;    
+    color: whitesmoke;
+    background-color: hsl(240, 52%, 6%)
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+a:hover {
+    color: rgba(143, 208, 224, 0.863);
+}
+
+    /* Top Nav Bar */
+    body header nav ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        position: sticky;
+        top: 0;
+        padding: 2rem 0;
+        background-color: hsla(240, 4%, 17%, 0.80);;
+        width:100%;
+        box-shadow: 0px 0px 0.75rem hsla(240, 4%, 17%, 0.466);
+    }
+    
+   
