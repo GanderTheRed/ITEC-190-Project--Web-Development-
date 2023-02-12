@@ -2,9 +2,9 @@
 
 /* Universal Settings */
 html {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Trebuchet MS", Arial, sans-serif;
     font-size: 12px;
-    font-weight: bold;    
+    font-weight: bold;
     color: whitesmoke;
     background-color: hsl(240, 52%, 6%)
 }
