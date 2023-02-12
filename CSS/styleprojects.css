@@ -2,9 +2,84 @@
 
 /* Universal Settings */
 
+
+#matrixVideo {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
 /*Body Settings*/
 
-    /*Header Settings */
-    
+    /* Text Settings */
+    dl {
+        margin: 0;
+    }
 
+    h1 {
+        margin: 0;
+        font-size: 6rem;
+    }
+
+    dt {
+        margin: 0;
+        font-size: 3rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.685);
+        padding: 1rem;
+        border: 10px solid hsla(120, 45%, 15%, 0.8);
+        border-left: 0;
+        border-right: 0;
+        margin: 2rem 0;
+    }
+    dt#maintitle {
+        border-top: 0;
+        border-bottom: 0;
+        background-color: transparent;
+    }
+    dt h2 {
+        text-align: center;
+        border-left: 0px;
+        border-right: 0px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin: 0;
+        font-size: 4rem;
+    }
+    dd {
+        text-align: center;
+        margin: 4rem auto;
+        width: 50%;
+        font-size: 1.75rem;
+        
+        text-shadow: 0px 0px 4rem hsl(123deg 100% 50%);
+    }
+    h3 {
+        font-size: 3rem;
+        min-width: 470px;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    /* Video Settings */
+    video {
+        border-radius: 3rem;
+        min-height: 500px;
+    }
+    div {
+        display: flex;
+        justify-content: center;       
+    }
+    
+    /* List Settings */
+    ul.lidesc {
+        align-self: center;
+        min-width: 310px;
+    }
+    div.sublist {
+        justify-content: space-evenly;
+    }
     
