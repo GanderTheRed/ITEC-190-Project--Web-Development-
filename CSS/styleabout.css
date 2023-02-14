@@ -1,10 +1,23 @@
 @charset "utf-8";
 
 /* Universal Settings */
+
+#backgroundVideo {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
 /* Text Settings */
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 dl {
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -58,6 +71,7 @@ h3 {
 table {
     margin: 0 auto;
     width: 80%;
+    
     text-shadow: 0px 0px 4rem hsl(123deg 100% 50%); 
 }
 
