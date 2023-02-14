@@ -36,16 +36,17 @@
         text-align: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        border: 10px solid hsla(120, 45%, 10%, 0.8);
-        border-left: 0;
-        border-right: 0;
+        background-color: hsla(120, 45%, 5%, 0.8);
+        
     }
     dt#maintitle {
-        border: 0;
+        
         padding-top: 2rem;
         padding-bottom: 2rem;
-        background-color: hsla(120, 45%, 10%, 0.8);;
-        
+        border: 10px solid hsla(120, 45%, 10%, 0.8);
+        background-color:rgba(0, 0, 0, 0);
+        border-left: 0;
+        border-right: 0;
     }
     dt h2 {
         text-align: center;
