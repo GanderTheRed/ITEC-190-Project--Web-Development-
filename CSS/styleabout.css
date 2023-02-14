@@ -1,6 +1,110 @@
 @charset "utf-8";
 
 /* Universal Settings */
+/* Text Settings */
+dl {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin: 0;
+    font-size: 6rem;
+}
+
+dt {
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 10px solid hsla(120, 45%, 15%, 0.8);
+    border-left: 0;
+    border-right: 0;
+}
+dt#maintitle {
+    border-top: 0;
+    border-bottom: 0;
+    text-decoration: underline;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+dt h2 {
+    text-align: center;
+    border-left: 0px;
+    border-right: 0px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0;
+    font-size: 4rem;
+}
+dd {
+    
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 80%;
+    font-size: 1.75rem;
+    text-shadow: 0px 0px 4rem hsl(123deg 100% 50%);     /* Need to fix text width */
+    margin: 0 auto;
+}
+h3 {
+    font-size: 3rem;
+    min-width: 470px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    text-shadow: 0px 0px 4rem hsl(123deg 100% 50%); 
+}
+
+table th {
+    width: 33%;
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 4rem hsl(123deg 100% 50%);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+table th.centercolumn {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+table th.leftcolumn {
+    border-right: 1px solid gray;
+    
+}
+
+table th.rightcolumn {
+    border-left: 1px solid gray;
+}
+
+table td {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 1.75rem;
+}
+
+table td.leftcolumn {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+table td.centercolumn {
+    border: 1px solid gray;
+   
+}
+
+table td.rightcolumn {
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
 
 
 /*Body Settings*/
