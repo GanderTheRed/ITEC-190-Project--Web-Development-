@@ -16,6 +16,7 @@
         body dl dt#dt1index {
             display: flex;
             margin: 8rem auto;
+            margin-bottom: 2rem;
             justify-content: center;
         }
         body dl dt a {
@@ -26,12 +27,17 @@
         body dl dt#dt2index {
             display: flex;
             justify-content: center;
+            text-align: center;
         }
         body dl dt#dt2index ul{
             display: flex;
-            list-style: square;
+            list-style:none;
             flex-flow: column wrap;
             font-size: 2rem;
+        }
+
+        body dl dt#dt2index li{
+            padding-top: 2rem;
         }
 
         body dl {
