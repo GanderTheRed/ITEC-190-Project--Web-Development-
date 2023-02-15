@@ -27,7 +27,7 @@
     h1 {
         margin: 0;
         font-size: 6rem;
-        text-shadow: 0px 0px 10rem hsl(123deg 100% 50%);;
+        text-shadow: 0px 0px 6rem hsl(123deg 100% 50%);
     }
 
     dt {
@@ -72,6 +72,7 @@
         padding-top: 1rem;
         padding-bottom: 1rem;
         margin: 0;
+        text-shadow: 0px 0px 6rem hsl(123deg 100% 50%);
     }
 
     /* Video Settings */
