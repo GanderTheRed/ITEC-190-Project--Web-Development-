@@ -97,4 +97,82 @@
         justify-content: space-evenly;
         background-color: transparent;
     }
+    div.sublist h3 {
+        width: 550px;
+        text-align: center;
+    }
+    div.sublist li {
+        width: 500px;
+        text-align: center;
+    }
+
+    /* Media Queries */
+
+    @media (min-width: 0px) and (max-width: 830px){
+        /* Pulldown menu */
+        nav ul a {
+            font-size: 1.5rem;
+        }
+        body dl dt a {
+            font-size: 4rem;
+        }
+        
+        body dl dd {
+            display: flex;
+            width: 90%;
+            margin: 2rem auto;
+            font-size: 1.5rem;
+            padding: 0;
+        }
+        video#ATMVideo, video#snakeVideo {
+            border-radius: 3rem;
+            min-width: 250px;
+            min-height: 0px;
+            opacity: 95%;
+            margin: auto;
+        }
+        div {
+            display: flex;
+            justify-content: center; 
+            padding-top: 2rem;  
+            padding-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: smaller;
+        }
+
+        h2,h3 {
+            font-size: 2rem;
+            min-width: 0;
+            padding: 1rem;
+        }
+        div.sublist li, div.sublist ul {
+            width: 80%;
+        }
+
+        dd.list {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        ul.lidesc {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        ul.listdesc li {
+            text-align: center;
+        }
+
+        div.sublist h3 {
+            display: none;
+        }
+    }
     
+    @media (min-width: 1441px){
+        html {
+            font-size: larger;
+        }
+    }  
