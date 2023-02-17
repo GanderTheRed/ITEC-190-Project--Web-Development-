@@ -40,9 +40,10 @@ body {
         font-size: 2rem;
     }
 
+    /* Small Screens */
     @media (min-width: 300px) and (max-width: 426px) {
         video {
-            display: none;
+            display: none;              /* Video was causing problems and was barely visible */
         }
 
         h1 {

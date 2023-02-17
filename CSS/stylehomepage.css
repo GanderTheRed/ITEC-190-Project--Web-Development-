@@ -64,8 +64,10 @@
 
 /* Media Queries */
 
+
+/* Small Screens */
 @media (min-width: 300px) and (max-width: 375px){
-    /* Pulldown menu */
+    /* Pulldown menu? */
    
     body dl dt#dt1index {
         margin: 3rem auto;
@@ -75,7 +77,7 @@
     body dl dt#dt1index a {
         font-size: 6rem;
     }
-
+                                                        /* Basically tightening everything up and making objects smaller */
     body dl dt#dt2index li{
         padding-top: 1rem;
         font-size: 1.5rem;
@@ -87,6 +89,7 @@
     
 }
 
+/* Larger screens */
 @media (min-width: 376px) and (max-width: 700px){
     
     body dl dt#dt1index {
@@ -100,9 +103,7 @@
     
 }
 
-@media (max-width: 700px){
-    
-}
+
 
 
 
