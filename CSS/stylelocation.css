@@ -8,10 +8,10 @@ body {
     position: fixed;
     z-index: -1;
     right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    left: 0;
     filter:hue-rotate(330deg);      /* green tint */
+    width: 100%;
+    
   }
 
 /*Body Settings*/
@@ -39,3 +39,5 @@ body {
         justify-content: center;
         font-size: 2rem;
     }
+
+   

@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-/* Need to add responsive design settings here */
-
-
 /* Universal Settings */
 
 
@@ -20,33 +17,28 @@
     /* Text Settings */
     dl {
         margin: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        text-shadow: 0px 0px 6rem hsl(123deg 100% 50%);
     }
 
     h1 {
         margin: 0;
         font-size: 6rem;
-        text-shadow: 0px 0px 6rem hsl(123deg 100% 50%);
     }
 
     dt {
         margin: 0;
         font-size: 3rem;
         text-align: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        background-color: hsla(120, 45%, 5%, 0.8);
-        
-    }
-    dt#maintitle {
-        
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        border: 10px solid hsla(120, 45%, 10%, 0.8);
-        background-color:rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.685);
+        padding: 1rem;
+        border: 10px solid hsla(120, 45%, 15%, 0.8);
         border-left: 0;
         border-right: 0;
+        margin: 2rem 0;
+    }
+    dt#maintitle {
+        border-top: 0;
+        border-bottom: 0;
+        background-color: transparent;
     }
     dt h2 {
         text-align: center;
@@ -58,34 +50,28 @@
         font-size: 4rem;
     }
     dd {
-       
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        text-align: center;
+        margin: 4rem auto;
         width: 80%;
         font-size: 1.75rem;
-        text-shadow: 0px 0px 4rem hsl(123deg 100% 50%);     /* Need to fix text width */
-        margin: 0 auto;
+        
+        text-shadow: 0px 0px 4rem hsl(123deg 100% 50%);
     }
     h3 {
         font-size: 3rem;
         min-width: 470px;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding: 1rem;
         margin: 0;
-        text-shadow: 0px 0px 6rem hsl(123deg 100% 50%);
     }
 
     /* Video Settings */
     video {
         border-radius: 3rem;
         min-height: 500px;
-        opacity: 95%;
     }
     div {
         display: flex;
-        justify-content: center; 
-        padding-top: 2rem;  
-        padding-bottom: 2rem;
+        justify-content: center;       
     }
     
     /* List Settings */
@@ -95,84 +81,53 @@
     }
     div.sublist {
         justify-content: space-evenly;
-        background-color: transparent;
     }
-    div.sublist h3 {
-        width: 550px;
-        text-align: center;
-    }
-    div.sublist li {
-        width: 500px;
-        text-align: center;
-    }
-
-    /* Media Queries */
-
-    @media (min-width: 0px) and (max-width: 830px){
-        /* Pulldown menu */
-        nav ul a {
-            font-size: 1.5rem;
-        }
-        body dl dt a {
-            font-size: 4rem;
-        }
-        
-        body dl dd {
-            display: flex;
-            width: 90%;
-            margin: 2rem auto;
-            font-size: 1.5rem;
-            padding: 0;
-        }
-        video#ATMVideo, video#snakeVideo {
-            border-radius: 3rem;
-            min-width: 250px;
-            min-height: 0px;
-            opacity: 95%;
-            margin: auto;
-        }
-        div {
-            display: flex;
-            justify-content: center; 
-            padding-top: 2rem;  
-            padding-bottom: 2rem;
+    
+    @media (min-width: 300px) and (max-width: 426px){
+        video {
+            border-radius: 2rem;
+            max-height: 300px;
         }
 
         h1 {
-            font-size: smaller;
+            font-size: 4rem;
         }
 
-        h2,h3 {
-            font-size: 2rem;
-            min-width: 0;
-            padding: 1rem;
-        }
-        div.sublist li, div.sublist ul {
-            width: 80%;
+        dt h2 {
+            font-size: 3.75rem;
         }
 
-        dd.list {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-        }
-        ul.lidesc {
-            display: flex;
-            justify-content: center;
-            text-align: center;
+        dt h3 {
+            font-size: 2.25rem;
         }
 
-        ul.listdesc li {
-            text-align: center;
+        dt {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
         }
 
-        div.sublist h3 {
+        div.sublist li h3 {
             display: none;
         }
-    }
-    
-    @media (min-width: 1441px){
-        html {
-            font-size: larger;
+
+        h3 {
+            
+            min-width: 0px;
         }
-    }  
+
+        ul.lidesc {
+            align-self: center;
+            min-width: 0px;
+        }
+
+        ul {
+            width: 100%;
+        }
+          
+        dd.list {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+    } 
+   
