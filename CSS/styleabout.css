@@ -126,5 +126,19 @@ table td.rightcolumn {
 
     /*Header Settings */
     
+    @media (min-width: 300px) and (max-width: 426px){
+        body dl dd {
+            padding: 0;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
 
+        th.centercolumn, td.centercolumn {
+            display: none;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+    }
    
